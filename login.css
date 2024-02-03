@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+.bg__gradient { background: rgb(0,92,70); background: linear-gradient(90deg, rgba(0,92,70,1) 0%, rgba(15,131,0,1) 35%, rgba(34,139,34,1) 100%); } 
+
+
+@media(min-width:768px){
+ .maximum-width{
+        max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+}
+}
+@media (max-width: 500px) {  
+    .login-rightaligned {
+      display: none !important;
+   }
+}
+.recycle-text{
+    color: white;
+}
+
+.recycle-textt{
+    padding-top: 10px;
+}
+.login-big-formdiv{
+    display: flex;
+}
+.outer1{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 95px;
+    margin-bottom: 25px;
+}
+.login-headertext{
+    font-size:20px;
+    margin-bottom: 30px;
+}
+.login-or{
+   margin-top: 25px;
+   margin-bottom: 25px;
+   padding-right: 140px;
+   padding-left: 140px;
+}
+/* Full-width input fields */
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    box-sizing: border-box;
+    background: #f1f1f1;
+}
+span.psw {
+    float: right;
+}
+.login-buttons2{
+    margin-top: 25px;
+}
+.btns{
+    margin-right: 5px;
+    width: 100px;
+    border: 1px solid beige;
+}
+.login-formdiv a{
+    text-decoration: none;
+}
+.login-form-text{
+    margin-top: 30px;
+}
+.login-rightaligned{
+    float: right;
+    
+} 
+.login-rightaligned img{
+    width: 80%;
+    height: auto;
+    float: right;
+    margin-top: 100px; 
+}
+.footer{
+    margin-top: 150px;
+}
+
